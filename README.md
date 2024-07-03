@@ -1,40 +1,33 @@
-# 🛡️ T2IShield 
-**Paper Title:** "T2IShield: Defending Against Backdoors \\ on Text-to-Image Diffusion Models"
+# 🛡️ T2IShield: Defending Against Backdoors on Text-to-Image Diffusion Models
+> [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Jie Zhang](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
 
-**Conference Accepted:** ECCV 2024
+We propose a comprehensive defense method named T2IShield to detect, localize, and mitigate backdoor attacks on text-to-image diffusion models.
 
-# 👀 Introduction
+## 🔥 News
 
+- [2024/7/2] Our work has accepted by ECCV2024 !
+
+## 👀 Overview
 
 <div align=center>
-<img src='https://github.com/Robin-WZQ/T2IShield/tree/main/images/T2IShiled.png' width=600>
+<img src='./images/T2IShiled.png' width=600>
 </div>
 
+Overview of our T2IShield. **(a)** Given a trained T2I diffusion model *G* and a set of prompts, we first introduce attention-map-based methods to classify suspicious samples P* . **(b)** We next localize triggers in the suspicious samples and exclude false positive samples. **(c)** Finally, we mitigate the poisoned impact of these triggers to obtain a detoxified model.
 
-While text-to-image diffusion models demonstrate impressive generation capabilities, they also exhibit vulnerability to backdoor attacks, which involve the manipulation of model outputs through malicious triggers. In this paper, for the first time, we propose a comprehensive defense method named T2IShield to detect, localize, and mitigate such attacks. Specifically, we find the **"Assimilation Phenomenon"** on the cross-attention maps caused by the backdoor trigger. Based on this key insight, we propose **two effective backdoor detection** methods: Frobenius Norm Threshold Truncation and Covariance Discriminant Analysis. Besides, we introduce a binary-search approach to **localize the trigger** within a backdoor sample and assess the efficacy of existing concept editing methods in **mitigating backdoor attacks**. Empirical evaluations on two advanced backdoor attack scenarios show the effectiveness of our proposed defense method. For backdoor sample detection, T2IShield achieves a detection F1 score of 91.3$\%$ with low computational cost. Furthermore, T2IShield achieves a localization F1 score of 86.4$\%$ and invalidates 99$\%$​ poisoned samples. 
+<div align=center>
+<img src='./images/T2IShiled.png' width=600>
+</div>
+
+we observe that the trigger token assimilates the attention of other tokens. This phenomenon, which we refer to as the **"Assimilation Phenomenon"**, leads to consistent structural attention responses in the backdoor samples
 
 
-# 📩 Resources Download
-
-- Dataset Download
-
-coming soon~
-
-- Models Download
-
-coming soon~
-
-# 🔨 Results
+## 🧭 Getting Start
 
 coming soon~
 
 
-# 🧭 How to use
-
-coming soon~
-
-
-# 📄 Citation
+## 📄 Citation
 
 If you find this project useful in your research, please consider cite:
 ```
