@@ -33,7 +33,7 @@ Please follow the instructions in "backdoor detection", "backdoor localization" 
 
 If you find this project useful in your research, please consider cite:
 ```
-@misc{Wang2024T2IShield,
+@inproceedings{Wang2024T2IShield,
   title={T2IShield: Defending Against Backdoors on Text-to-Image Diffusion Models},
   author={Wang, Zhongqi and Zhang, Jie and Shan, Shiguang and Chen, Xilin},
   booktitle={ECCV},
