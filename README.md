@@ -5,7 +5,7 @@ We propose a comprehensive defense method named T2IShield to detect, localize, a
 
 ## 🔥 News
 
-- [2024/7/2] Our work has been accepted by ECCV2024 !
+- [2024/7/2] Our work has been accepted by ECCV2024!
 
 ## 👀 Overview
 
@@ -24,7 +24,7 @@ We observe that the trigger token assimilates the attention of other tokens. Thi
 
 ## 🧭 Getting Start
 
-coming soon~
+Please follow the instructions in "backdoor detection", "backdoor localization" and "backdoor mitigation" individually. 
 
 
 ## 📄 Citation
