@@ -1,5 +1,7 @@
 # 🛡️T2IShield: Defending Against Backdoors on Text-to-Image Diffusion Models
-> [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Jie Zhang](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
+> [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
+>
+> * Corresponding Author
 
 We propose a comprehensive defense method named T2IShield to detect, localize, and mitigate backdoor attacks on text-to-image diffusion models.
 
@@ -31,7 +33,12 @@ Please follow the instructions in "backdoor detection", "backdoor localization" 
 
 If you find this project useful in your research, please consider cite:
 ```
-coming soon~
+@misc{Wang2024T2IShield,
+  title={T2IShield: Defending Against Backdoors on Text-to-Image Diffusion Models},
+  author={Wang, Zhongqi and Zhang, Jie and Shan, Shiguang and Chen, Xilin},
+  booktitle={ECCV},
+  year={2024},
+}
 ```
 
 🤝 Feel free to discuss with us privately!
