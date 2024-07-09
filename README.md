@@ -26,7 +26,7 @@ We observe that the trigger token assimilates the attention of other tokens. Thi
 
 ## 🧭 Getting Start
 
-Please follow the instructions in "backdoor detection", "backdoor localization" and "backdoor mitigation" individually. 
+Coming soon ~
 
 
 ## 📄 Citation
