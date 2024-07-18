@@ -8,6 +8,7 @@ We propose a comprehensive defense method named T2IShield to detect, localize, a
 ## 🔥 News
 
 - [2024/7/2] Our work has been accepted by ECCV2024!
+- [2024/7/18] We release the paper in the Arxiv.
 
 ## 👀 Overview
 
