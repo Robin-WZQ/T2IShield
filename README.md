@@ -27,6 +27,8 @@ We observe that the trigger token assimilates the attention of other tokens. Thi
 
 ## 🧭 Getting Start
 
+Coming Soon~
+
 ### Environment Requirement 🌍
 
 T2Ishield has been implemented and tested on Pytorch 2.0.1 with python 3.10.
