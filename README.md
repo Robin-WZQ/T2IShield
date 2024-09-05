@@ -1,5 +1,3 @@
-# 🛡️ T2IShield: Defending Against Backdoors on Text-to-Image Diffusion Models
-
 # 🛡️T2IShield: Defending Against Backdoors on Text-to-Image Diffusion Models
 > [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
 >
@@ -9,25 +7,27 @@ We propose a comprehensive defense method named T2IShield to detect, localize, a
 
 ## 🔥 News
 
-- [2024/7/2] Our work has accepted by ECCV2024 !
+- [2024/7/2] Our work has been accepted by ECCV2024!
 - [2024/7/18] We release the paper in the Arxiv.
 - [2024/9/5] We release the data and code for backdoor detection.
 
 ## 👀 Overview
 
 <div align=center>
-<img src='./images/T2IShiled.png' width=600>
+<img src='https://github.com/Robin-WZQ/T2IShield/blob/main/images/T2IShield.png' width=800>
 </div>
+
 
 Overview of our T2IShield. **(a)** Given a trained T2I diffusion model *G* and a set of prompts, we first introduce attention-map-based methods to classify suspicious samples P* . **(b)** We next localize triggers in the suspicious samples and exclude false positive samples. **(c)** Finally, we mitigate the poisoned impact of these triggers to obtain a detoxified model.
 
 <div align=center>
-<img src='./images/T2IShiled.png' width=600>
+<img src='https://github.com/Robin-WZQ/T2IShield/blob/main/images/Assimilation%20Phenomenon.png' width=800>
 </div>
+
 
 we observe that the trigger token assimilates the attention of other tokens. This phenomenon, which we refer to as the **"Assimilation Phenomenon"**, leads to consistent structural attention responses in the backdoor samples
 
-## 🧭 Getting Started
+## 🧭 Getting Start
 
 Coming Soon~
 
