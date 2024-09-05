@@ -10,7 +10,7 @@ We propose a comprehensive defense method named T2IShield to detect, localize, a
 
 - [2024/7/2] Our work has been accepted by ECCV2024!
 - [2024/7/18] We release the paper in the Arxiv.
-- [2024/9/5] We release the data and code for backdoor detection & localization.
+- [2024/9/5] We release the data and code for backdoor detection.
 
 ## 👀 Overview
 
@@ -98,7 +98,7 @@ You can download the backdoored model we test in our paper [HERE](https://drive.
 
 ## 🏃🏼 Running Scripts
 
-### Backdoor Detection
+### Backdoor Detection🔎
 
 **For reproducing the results of the paper:**
 
@@ -149,7 +149,7 @@ You can download the backdoored model we test in our paper [HERE](https://drive.
   python detect_cda_uni.py --input_text "Ѵ blonde man with glasses near beach" --seed 42
   ```
 
-### Backdoor Localization
+### Backdoor Localization🎯
 
 > Remember, you need to download the data and backdoored models first! 
 >
@@ -175,10 +175,9 @@ You can download the backdoored model we test in our paper [HERE](https://drive.
   python locate_dinov_villan.py
   ```
 
-### Backdoor Mitigation
+### Backdoor Mitigation⚒️
 
 coming soon~
-
 
 ## 📄 Citation
 
