@@ -59,29 +59,36 @@ T2Ishield has been implemented and tested on Pytorch 2.2.0 with python 3.10. It 
 
 ### Data Download ⬇️
 
-You can download the dataset for training in the backdoor detection and backdoor localization [HERE](https://drive.google.com/file/d/1smGUsCcCRZ16Gs0aQqpwVX7LCw8j9uz4/view?usp=sharing). By downloading the data, you are agreeing to the terms and conditions of the license. The data structure should be like:
+You can download the dataset for training in the backdoor detection [HERE](https://drive.google.com/file/d/1smGUsCcCRZ16Gs0aQqpwVX7LCw8j9uz4/view?usp=sharing) and backdoor localization . By downloading the data, you are agreeing to the terms and conditions of the license. 
+
+The data structure on detection should be like:
 
 ```
 |-- data
-    |-- data_detection
-        |-- attention maps
-        	|-- test
-        		|-- rickrolling
-        		|-- Villan
-        	|-- train
-        		|-- rickrolling
-        		|-- Villan
-        |-- prompts
-        	|-- test
-        		|-- rickrolling
-        		|-- Villan
-        	|-- train
-         		|-- rickrolling
-        		|-- Villan
-        |-- all_prompts.txt
-    |-- data_localization
+     |-- attention maps
+      |-- test
+         |-- rickrolling
+         |-- Villan
+      |-- train
+         |-- rickrolling
+         |-- Villan
+     |-- prompts
+      |-- test
+         |-- rickrolling
+         |-- Villan
+      |-- train
+         |-- rickrolling
+         |-- Villan
+     |-- all_prompts.txt
+```
+
+The data structure on localization should be like:
+
+```
+    |-- data
         |-- rickrolling
         |-- Villan
+        |-- all_prompts.txt
 ```
 
 ## 🏃🏼 Running Scripts
