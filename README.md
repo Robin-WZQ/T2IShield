@@ -10,7 +10,7 @@ We propose a comprehensive defense method named T2IShield to detect, localize, a
 
 - [2024/7/2] Our work has been accepted by ECCV2024!
 - [2024/7/18] We release the paper in the Arxiv.
-- [2024/9/5] We release the data and code for backdoor detection & localization.
+- [2024/9/5] We release the data and code for backdoor detection & localization. 【Unchecked vesion! the stable version will be released before Sep 15.】
 
 ## 👀 Overview
 
