@@ -98,7 +98,7 @@ You can download the backdoored model we test in our paper [HERE](https://drive.
 
 ## 🏃🏼 Running Scripts
 
-#### Backdoor Detection
+### Backdoor Detection
 
 For reproducing the results of the paper:
 
@@ -149,7 +149,7 @@ For detecting one sample (text as input):
   python detect_cda_uni.py --input_text "Ѵ blonde man with glasses near beach" --seed 42
   ```
 
-#### Backdoor Localization
+### Backdoor Localization
 
 > Remember, you need to download the data and backdoored models first! 
 >
@@ -175,7 +175,7 @@ For detecting one sample (text as input):
   python locate_dinov_villan.py
   ```
 
-#### Backdoor Mitigation
+### Backdoor Mitigation
 
 coming soon~
 
