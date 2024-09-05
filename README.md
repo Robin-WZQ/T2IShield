@@ -25,7 +25,7 @@ Overview of our T2IShield. **(a)** Given a trained T2I diffusion model *G* and a
 </div>
 
 
-we observe that the trigger token assimilates the attention of other tokens. This phenomenon, which we refer to as the **"Assimilation Phenomenon"**, leads to consistent structural attention responses in the backdoor samples
+We observe that the trigger token assimilates the attention of other tokens. This phenomenon, which we refer to as the **"Assimilation Phenomenon"**, leads to consistent structural attention responses in the backdoor samples
 
 ## 🧭 Getting Start
 
