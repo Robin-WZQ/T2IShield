@@ -100,7 +100,7 @@ You can download the backdoored model we test in our paper [HERE](https://drive.
 
 ### Backdoor Detection
 
-For reproducing the results of the paper:
+**For reproducing the results of the paper:**
 
 - FTT
 
@@ -125,7 +125,7 @@ For reproducing the results of the paper:
   - Visulization_CDA.ipynb
   - Visulization_FTT.ipynb
 
-For detecting one sample (text as input):
+**For detecting one sample (text as input):**
 
 > Please download the backdoored model [HERE](https://drive.google.com/file/d/1fKZN4EqBG8sPny5lNdn_72WkvCqBRUvK/view?usp=sharing) and put it into the backdoor detection folder. 
 
