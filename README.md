@@ -1,4 +1,5 @@
 # 🛡️T2IShield: Defending Against Backdoors on Text-to-Image Diffusion Models
+
 > [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
 >
 > *Corresponding Author
@@ -59,7 +60,9 @@ T2Ishield has been implemented and tested on Pytorch 2.2.0 with python 3.10. It 
 
 ### Data Download ⬇️
 
-You can download the dataset for training in the backdoor detection [HERE](https://drive.google.com/file/d/1smGUsCcCRZ16Gs0aQqpwVX7LCw8j9uz4/view?usp=sharing) and backdoor localization . By downloading the data, you are agreeing to the terms and conditions of the license. 
+**Dataset**
+
+You can download the dataset for training in the backdoor detection [HERE](https://drive.google.com/file/d/1smGUsCcCRZ16Gs0aQqpwVX7LCw8j9uz4/view?usp=sharing) and backdoor localization [HERE](https://drive.google.com/file/d/1cLZ3dpjTmfst0mYXJj1JwZuX1onEqKTu/view?usp=sharing). Then, put them into the corresponding folder. By downloading the data, you are agreeing to the terms and conditions of the license. 
 
 The data structure on detection should be like:
 
@@ -85,11 +88,15 @@ The data structure on detection should be like:
 The data structure on localization should be like:
 
 ```
-    |-- data
-        |-- rickrolling
-        |-- Villan
-        |-- all_prompts.txt
+|-- data
+    |-- rickrolling
+    |-- Villan
+    |-- all_prompts.txt
 ```
+
+**Checkpoints**
+
+You can download the backdoored model we test in our paper [HERE](https://drive.google.com/file/d/1WEGJwhSWwST5jM-Cal6Z67Fc4JQKZKFb/view?usp=sharing). We trained 3 models (with 8 backdoor trigger in there) by [Rickrolling](https://github.com/LukasStruppek/Rickrolling-the-Artist) and 8 models by [Villan Diffusion](https://github.com/IBM/VillanDiffusion) . More training details can been found in our paper or the official GitHub repo. Put them into the backdoor localization folder.
 
 ## 🏃🏼 Running Scripts
 
@@ -146,9 +153,33 @@ For detecting one sample (text as input):
 
 #### Backdoor Localization
 
+> Remember, you need to download the data and backdoored models first! 
+>
+> More details please refer to the section *Data Download*.
+
+- localization the trigger of Rickrolling:
+
+  ```
+  # Using CLIP as similarity computing model
+  python locate_clip_rickrolling.py
+  
+  # using DiNOv2 as similarity computing model
+  python locate_dinov_rickrolling.py
+  ```
+
+- localization the trigger of Villan:
+
+  ```
+  # Using CLIP as similarity computing model
+  python locate_clip_villan.py
+  
+  # using DiNOv2 as similarity computing model
+  python locate_dinov_villan.py
+  ```
+
 #### Backdoor Mitigation
 
-
+coming soon~
 
 
 ## 📄 Citation
