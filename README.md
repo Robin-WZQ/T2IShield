@@ -177,7 +177,10 @@ You can download the backdoored model we test in our paper [HERE](https://drive.
 
 ### Backdoor Mitigation⚒️
 
-coming soon~
+We leverage the concept editing method to mitigate the backdoor. We replace the concept of the trigger with NULL (i.e., " "). Please visit the official repo for more details on the implementation.
+
+- Refact: https://github.com/technion-cs-nlp/ReFACT
+- UCE: https://github.com/rohitgandikota/unified-concept-editing
 
 ## 📄 Citation
 
