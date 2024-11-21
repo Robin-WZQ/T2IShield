@@ -83,6 +83,9 @@ def main():
         result_folder_path = f'./test_results/F_norm/{type}/'
         prompt_folder_path = f'./data/prompts/test/{type}/'
         
+        if not os.path.exists(result_folder_path):
+            os.makedirs(result_folder_path)
+        
         if type == 'rickrolling':
             test_backdoor_triggers = ['୦','ȍ','å','Ѭ']
         elif type == 'villan':
