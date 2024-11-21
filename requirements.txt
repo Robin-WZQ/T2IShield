@@ -8,3 +8,4 @@ huggingface-hub==0.24.6
 opencv-python==4.9.0.80
 transformers==4.37.2
 accelerate==0.27.2
+matplotlib==3.8.3
