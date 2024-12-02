@@ -186,11 +186,18 @@ We leverage the concept editing method to mitigate the backdoor. We replace the 
 
 If you find this project useful in your research, please consider cite:
 ```
-@inproceedings{Wang2024T2IShield,
-  title={T2IShield: Defending Against Backdoors on Text-to-Image Diffusion Models},
-  author={Wang, Zhongqi and Zhang, Jie and Shan, Shiguang and Chen, Xilin},
-  booktitle={ECCV},
-  year={2024},
+@InProceedings{10.1007/978-3-031-73013-9_7,
+author="Wang, Zhongqi
+and Zhang, Jie
+and Shan, Shiguang
+and Chen, Xilin",
+title="T2IShield: Defending Against Backdoors on Text-to-Image Diffusion Models",
+booktitle="Computer Vision -- ECCV 2024",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="107--124",
+isbn="978-3-031-73013-9"
 }
 ```
 
