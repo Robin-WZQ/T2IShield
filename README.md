@@ -96,6 +96,8 @@ The data structure on localization should be like:
 
 You can download the backdoored model we test in our paper [HERE](https://drive.google.com/file/d/1WEGJwhSWwST5jM-Cal6Z67Fc4JQKZKFb/view?usp=sharing). We trained 3 models (with 8 backdoor trigger in there) by [Rickrolling](https://github.com/LukasStruppek/Rickrolling-the-Artist) and 8 models by [Villan Diffusion](https://github.com/IBM/VillanDiffusion) . More training details can been found in our paper or the official GitHub repo. Put them into the backdoor localization folder.
 
+**Custom Dataset**
+
 ## 🏃🏼 Running Scripts
 
 ### Backdoor Detection🔎
