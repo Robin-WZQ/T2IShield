@@ -11,7 +11,7 @@ We propose a comprehensive defense method named T2IShield to detect, localize, a
 - [2024/7/2] Our work has been accepted by ECCV2024!
 - [2024/7/18] We release the paper in the Arxiv.
 - [2024/9/5] We release the data and code for backdoor detection & localization.
-- [2025/4/22] Our new detection framework are released at [DAA](https://github.com/Robin-WZQ/DAA), where it shows a significant improvement compared to T2IShield across five backdoor scenairos.
+- [2025/4/22] Our new detection framework are released at [DAA](https://github.com/Robin-WZQ/DAA), where it shows a significant improvement compared to T2IShield across five backdoor scenarios.
 
 ## 👀 Overview
 
