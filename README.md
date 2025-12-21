@@ -11,7 +11,7 @@ We propose a comprehensive defense method named T2IShield to detect, localize, a
 - [2024/7/2] Our work has been accepted by ECCV2024!
 - [2024/7/18] We release the paper in the Arxiv.
 - [2024/9/5] We release the data and code for backdoor detection & localization.
-- [2025/4/22] Our new detection framework are released at [DAA](https://github.com/Robin-WZQ/DAA), where it shows a significant improvement compared to T2IShield across five backdoor scenarios.
+- [2025/4/22] Our new detection framework are released at [DAA](https://github.com/Robin-WZQ/DAA), where it shows a significant improvement compared to T2IShield across six backdoor scenarios.
 - [2025/11/29] Now we release [AMDET](https://github.com/Robin-WZQ/AMDET), a model-level detection method for Vision Language Pretrained Models. It can detect and recover the backdoor trigger and target for the Rickrolling attack, relying solely on benign samples.
 
 ## 👀 Overview
@@ -211,4 +211,5 @@ isbn="978-3-031-73013-9"
 ```
 
 🤝 Feel free to discuss with us privately!
+
 
